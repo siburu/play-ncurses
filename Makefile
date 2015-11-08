@@ -2,7 +2,7 @@ CC := gcc
 CFLAGS := -Wall -O3
 LDFLAGS := -lncurses
 
-all: demo
+all: bounce
 
 clean:
-	rm demo
+	rm bounce
